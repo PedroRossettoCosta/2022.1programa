@@ -64,7 +64,7 @@ if "xpto" in alunos:
 for indice in range(len(alunos)):
     print(alunos[indice])
 
-wifor indice, aluno in enumerate(alunos):
+for indice, aluno in enumerate(alunos):
     print(indice, aluno, sep=" - ")
 
 print("alunos")
