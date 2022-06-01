@@ -47,3 +47,29 @@ print(notas)
 print(notas_decrescentes)
 
 #estruturas  imutaveis
+
+
+def pilha_insere(lista,valor):
+    lista.append(valor)
+
+def pilha_remove(lista):
+    return lista.pop()
+
+def pilha_testa():
+    pilha = []
+    pilha_insere(pilha,4)
+    pilha_insere(pilha,7)
+    pilha_insere(pilha,9)
+    print(pilha)
+    for _ in range(2):
+        pilha_remove(pilha)
+print(pilha)
+
+pilha_testa()
+
+def fila_remove(lista):
+    if lista:
+        return lista.pop(8)
+
+buffer_dados = []
+    
