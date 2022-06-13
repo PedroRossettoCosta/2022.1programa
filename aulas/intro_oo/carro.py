@@ -44,4 +44,4 @@ outro_carro = Carro("gol", "v8", "Preto")
 print(outro_carro.modelo)
 print(outro_carro)
 
-carro_novo.acelerar(90)hjkhkjhkkjh
+carro_novo.acelerar(90)
